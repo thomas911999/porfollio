@@ -42,6 +42,22 @@ section{
     font-family: 'Raleway', sans-serif;
     background: #a1a1bdd6;
 }
+
+.contact div h2
+{
+    color: #142462;
+}
+
+.about div h2
+{
+    color: #142462;
+}
+
+.skills div h2
+{
+    color: #142462
+}
+
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
@@ -59,6 +75,7 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
 section .title::before{
     content: "";
@@ -67,7 +84,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: #142462;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -75,9 +92,9 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #6e6e6e;
+    color: #047fc6;
     padding: 0 5px;
-    background: #fff;
+    background: #b0b0c7;
     transform: translateX(-50%);
 }
 
@@ -226,7 +243,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who we are";
+    content: "Qui suis-je ?";
 }
 .about .about-content .left{
     width: 45%;
@@ -239,6 +256,7 @@ section .title::after{
 }
 .about .about-content .right{
     width: 55%;
+    font-size: 21px;
 }
 .about .about-content .right .text{
     font-size: 25px;
@@ -271,7 +289,7 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: #142462;
 }
 .services .title::before,
 .teams .title::before{
@@ -279,8 +297,9 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
-    content: "what we do";
+    background: #142462;
+    content: "what we ";
+    font-size: 20px;
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -356,8 +375,9 @@ section .title::after{
     justify-content: space-between;
 }
 .skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 19px;
+    color: #142462;
 }
 .skills .skills-content .right .line{
     height: 5px;
@@ -371,7 +391,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: #6e6e6e;
+    background: #0671b5;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -460,9 +480,10 @@ section .title::after{
     width: calc(50% - 30px);
 }
 .contact .contact-content .text{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #142462;
 }
 .contact .contact-content .left p{
     text-align: justify;
@@ -480,7 +501,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #6e6e6e;
+    color: #142462;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
