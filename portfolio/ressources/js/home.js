@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Etudiant en BTS SIO II à EFREI", "Developpeur Web"],
+        strings: ["Etudiant en BTS SIO II à EFREI", "Developpeur Web","Alterant Digital SNCF"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

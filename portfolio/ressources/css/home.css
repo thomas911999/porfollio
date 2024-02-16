@@ -40,6 +40,7 @@ section{
 }
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Raleway', sans-serif;
+    background: #a1a1bdd6;
 }
 .about .about-content,
 .services .serv-content,
@@ -91,7 +92,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #131f5e;
+    background: #142462;
 }
 .navbar .max-width{
     display: flex;
@@ -133,7 +134,7 @@ section .title::after{
     color: #6e6e6e;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #037bbf;
 }
 
 /* menu btn styling */
@@ -175,7 +176,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url(https://img.freepik.com/free-vector/dark-low-poly-background_1048-7971.jpg?size=626&ext=jpg) no-repeat center;
+    background: url(https://img.freepik.com/free-vector/gradient-blue-background_23-2149331406.jpg?t=st=1708082946~exp=1708083546~hmac=73cbc7563303324bb8b4a598355ff4c39037898181617bcfc758d0ef6b85425e) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -203,24 +204,24 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #6e6e6e;
+    color: #037cc0;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #6e6e6e;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #6e6e6e;
+    /*border: 2px solid #6e6e6e;*/
     transition: all 0.3s ease;
+    background: #0670b6;
 }
 .home .home-content a:hover{
-    color: #6e6e6e;
-    background: none;
+    color: #fff;
+    background: #0670b6b2;
 }
 
 /* about section styling */
@@ -252,19 +253,19 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #6e6e6e;
+    background: #131f5e;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #6e6e6e;
+   /* border: 2px solid #6e6e6e;*/
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #6e6e6e;
-    background: none;
+    color: #fff;
+    background: #131f5ebf;
 }
 
 /* services section styling */
