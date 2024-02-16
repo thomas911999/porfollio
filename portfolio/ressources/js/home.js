@@ -35,18 +35,18 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Game Developer", "Web Developes", "Designer", "Talented Coders"],
+        strings: ["Etudiant en BTS SIO II à EFREI", "Developpeur Web"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
+  /*  var typed = new Typed(".typing-2", {
         strings: ["Game Developers", "Website Makers", "Designers", "Talented Coder"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
-    });
+    });*/
 
     // owl carousel script
     $('.carousel').owlCarousel({

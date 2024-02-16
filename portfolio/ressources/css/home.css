@@ -91,7 +91,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #6e6e6e;
+    background: #131f5e;
 }
 .navbar .max-width{
     display: flex;
@@ -107,6 +107,13 @@ section .title::after{
     color: #6e6e6e;
     transition: all 0.3s ease;
 }
+
+.navbar .logo img {
+    height: 35px ; /* Ajustez la hauteur de l'image selon vos besoins */
+    margin-right: 10px; /* Espacement entre le texte et l'image */
+    margin-bottom: -8px;
+}
+
 .navbar.sticky .logo a span{
     color: #fff;
 }
