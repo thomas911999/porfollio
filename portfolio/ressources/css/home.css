@@ -490,7 +490,6 @@ section .title::after{
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
-    font-size: ;
 }
 .skills .skills-content .right span{
     font-weight: 600;
