@@ -249,10 +249,12 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    object-position: bottom;
     object-fit: cover;
-    border-radius: 6px;
+    transition: left 1s, transform 1s;
 }
 .about .about-content .right{
     width: 55%;
@@ -289,7 +291,7 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #142462;
+    background: #0a143cde;
 }
 .services .title::before,
 .teams .title::before{
@@ -297,7 +299,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #142462;
+    background: #293255;
     content: "what we ";
     font-size: 20px;
 }
@@ -473,6 +475,8 @@ section .title::after{
 }
 
 /* contact section styling */
+
+/*
 .contact .title::after{
     content: "get in touch";
 }
@@ -570,15 +574,20 @@ section .title::after{
   color: #6e6e6e;
   background: none;
 }
+
+/*
 /* footer section styling */
 footer{
-    background: #111;
+    background: #0a143cde;
     padding: 15px 23px;
-    color: #fff;
+    color: white;
     text-align: center;
+    /*! font-style: italic; */
+    /*! font-weight: bolder; */
+    font-size: 16px;
 }
 footer span a{
-    color: #6e6e6e;
+    color: #703c3c;
     text-decoration: none;
 }
 footer span a:hover{
@@ -712,3 +721,4 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+

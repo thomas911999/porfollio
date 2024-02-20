@@ -4,12 +4,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RIPOLL Thomas Portfolio</title>
     <link rel="stylesheet" href="../ressources/css/home.css">
+    <link rel="stylesheet" href="../ressources/css/contact.css">
+    <link rel="stylesheet" href="../ressources/css/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+
 
 </head>
 <body>
@@ -53,20 +60,20 @@
     <!-- about section start -->
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">About Me</h2>
+            <h2 class="title">A propos</h2>
             <div class="about-content">
-                <div class="column left">
-                  <a href="https://replit.com/team/destint-studios"><img src="DESTINY STUDIOS.gif" alt=""></a>
+                <div class="column left aos-init aos-animate" data-aos="fade-left">
+                  <a><img src="/ressources/images/IMG_20240201_162914_845.jpg" alt=""></a>
                 </div>
-                <div class="column right">
-                    <div class="text">I'm Kitsuké Kizuki and I am a <span class="typing-2"></span></div>
-                    <p>Hi there! I'm a 16 yr old developer with over 7 years of experience. I like making fun and satisying games and doing pixel art. I alos like playing chess.</p>
+                <div class="column right aos-init aos-animate" data-aos="fade-left" data-aos-delay="100">
+                    <div class="text">Thomas RIPOLL <span class="typing-2"></span></div>
+                    <p>Bonjour, j'ai 24 ans et je suis étudiant en BTS SIO II à Efrei, je suis passioné par l'informatique depuis mon plus jeune âge.<br>J'aime les jeux vidéos, particulièrement ceux sur console. Je voudrais poursuivre mes études en license "Développment Web et Application" !</p>
                   <br></br>
-<p style="font-style: italic;">
+<!-- <p style="font-style: italic;">
 Fun Fact: I was the runner up for the Pixilart Thanksgiving competition and my team won the Charlton Chess v Dartford Chess Tournament.
-</p>
+</p> -->
 
-                    <a href="#services">My Skills</a>
+                    <a href="#services">Mes compététences</a>
                 </div>
             </div>
         </div>
@@ -76,7 +83,7 @@ Fun Fact: I was the runner up for the Pixilart Thanksgiving competition and my t
     <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">My Skills</h2>
-            <div class="serv-content">
+            <div class="serv-content aos-init aos-animate" data-aos="fade-up">
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
@@ -202,51 +209,33 @@ Fun Fact: I was the runner up for the Pixilart Thanksgiving competition and my t
       </div>
   </section>
 
+<!-- CONTACT SECTION -->
 
-    <!-- contact section start -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact Me</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>Get in touch with me!</p>
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Kitsuké Kizuki</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Located</div>
-                                <div class="sub-title">London</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title"><a href = "mailto:">skopi.kmoach@gmail.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
+<section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title">Contact</h2>
+        <div class="contact-links">
+            <a href="www.linkedin.com/in/thomas-ripoll-2a398719b" target="_blank" class="btn contact-details"><i class="fab fa-linkedin"></i> Linkedin</a>
+            <a id="profile-link" href="https://github.com/thomas911999" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+            <a href="mailto:thomas.ripoll-1@outlook.fr" class="btn contact-details"><i class="fas fa-at"></i> email</a>
+            <a href="tel:06-61-97-37-52" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Téléphone</a>
+          </div>
         </div>
-    </section>
-
+    </div>
+</section>
+  
+  <!-- END CONTACT SECTION -->
 
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href = "https://codepen.io/Slozz">Kitsuké Kizuki</a> | <span class="far fa-copyright"></span> 2024 Kitsuké Kizuki All rights reserved.</span>
+        <span>Copyright 2024 <span class="far fa-copyright"></span> RIPOLL Thomas</span>
     </footer>
 
     <script src="/ressources/js/home.js"></script>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </html>
