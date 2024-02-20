@@ -88,7 +88,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #142462;
+    background: white;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -300,10 +300,12 @@ section .title::after{
 }
 
 .bts .title::after{
-    content: "Qui suis-je ?";
+    content: "BTS SIO SLAM";
+    background: #293255;
 }
 .bts .bts-content .left{
     width: 45%;
+    height: 350px;
 }
 
 .bts .bts-content .left p{
@@ -316,6 +318,7 @@ section .title::after{
 .bts .bts-content .right{
     width: 45%;
     font-size: 21px;
+    height: 350px;
 }
 
 .bts .bts-content .left .text{
@@ -520,10 +523,10 @@ section .title::after{
     width: 50%;
 }
 .skills-content .right .php::before{
-    width: 70%;
+    width: 60%;
 }
 .skills-content .right .mysql::before{
-    width: 80%;
+    width: 70%;
 }
 
 /* teams section styling */
