@@ -301,6 +301,7 @@ section .title::after{
 
 .bts .title::after{
     content: "Qui suis-je ?";
+    background: #293255;
 }
 .bts .bts-content .left{
     width: 45%;
