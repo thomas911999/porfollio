@@ -44,10 +44,16 @@ section{
 }
 
 
+.contact
+{
+    font-family: 'Raleway', sans-serif;
+    background: #293255;
+}
+
 
 .contact div h2
 {
-    color: #142462;
+    color: #ffffff;
 }
 
 .about div h2
@@ -86,9 +92,9 @@ section .title::before{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
+    width: 406px;
     height: 3px;
-    background: #142462;
+    background: white;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -169,12 +175,12 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #6e6e6e;
+    background: #037ec4;
     right: 30px;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #ededed;
+    /*! color: #fff !important; */
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -300,11 +306,12 @@ section .title::after{
 }
 
 .bts .title::after{
-    content: "Qui suis-je ?";
+    content: "BTS SIO SLAM";
     background: #293255;
 }
 .bts .bts-content .left{
-    width: 45%;
+    width: 100%;
+    /*! height: 350px; */
 }
 
 .bts .bts-content .left p{
@@ -314,9 +321,36 @@ section .title::after{
     color: white
 }
 
+.bts .bts-content .left a{
+    margin-top: 20px;
+    display: inline-block;
+    background: #0670b6;
+    color: #eff6fa;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+   /* border: 2px solid #6e6e6e;*/
+    transition: all 0.3s ease;
+    /*! font-weight: bold; */
+}
+
+.bts .bts-content .left a:hover{
+    color: #eff6fa;
+    background: #0670b6b2;
+}
+
+.bts .bts-content .left li{
+    text-align: justify;
+    font-size: 18px;
+    color: white
+}
+
 .bts .bts-content .right{
     width: 45%;
     font-size: 21px;
+    height: 350px;
 }
 
 .bts .bts-content .left .text{
@@ -407,7 +441,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #b0b0c7;
-    content: "what we ";
+    content: "mon savoir faire";
     font-size: 20px;
 }
 
@@ -424,22 +458,23 @@ section .title::after{
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    /*! cursor: pointer; */
+    /*! transition: all 0.3s ease; */
+    /*! color: white; */
 }
-.services .serv-content .card:hover{
+/*.services .serv-content .card:hover{
     background: #6e6e6e;
-}
+}*/
 .services .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+/*.services .serv-content .card:hover .box{
     transform: scale(1.05);
-}
+}*/
 .services .serv-content .card i{
     font-size: 50px;
-    color: #6e6e6e;
-    transition: color 0.3s ease;
+    color: #fff;
+   /* transition: color 0.3s ease;*/
 }
 .services .serv-content .card:hover i{
     color: #fff;
@@ -467,22 +502,26 @@ section .title::after{
 .skills .skills-content .left p{
     text-align: justify;
 }
+
+
 .skills .skills-content .left a{
+    margin-top: 20px;
     display: inline-block;
-    background: #6e6e6e;
+    background: #131f5e;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
-    padding: 8px 16px;
+    padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #6e6e6e;
+   /* border: 2px solid #6e6e6e;*/
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #6e6e6e;
-    background: none;
+    color: #fff;
+    background: #131f5ebf;
 }
+
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
@@ -491,7 +530,6 @@ section .title::after{
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
-    font-size: ;
 }
 .skills .skills-content .right span{
     font-weight: 600;
@@ -522,26 +560,27 @@ section .title::after{
     width: 50%;
 }
 .skills-content .right .php::before{
-    width: 70%;
+    width: 60%;
 }
 .skills-content .right .mysql::before{
-    width: 80%;
+    width: 70%;
 }
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "Qui sont t'ils ?";
 }
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
-    text-align: center;
+    text-align: left;
     overflow: hidden;
     transition: all 0.3s ease;
+    font-size: 17px;
 }
 .teams .carousel .card:hover{
-    background: #6e6e6e;
+    background: #000;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -555,14 +594,15 @@ section .title::after{
 }
 .teams .carousel .card .text{
     font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+    color: #037cc1;
 }
 .teams .carousel .card img{
     height: 150px;
-    width: 150px;
+    width: 270px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 5%;
     border: 5px solid #6e6e6e;
     transition: all 0.3s ease;
 }
@@ -579,7 +619,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #6e6e6e!important;
+    border: 2px solid #6e6e6e !important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -588,8 +628,86 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: #6e6e6e!important;
+    background: #222222 !important;
 }
+
+.veille{
+    color:#fff;
+    background: #b0b0c7;
+}
+
+
+.veille .title::before{
+    background: #1d2c68;
+}
+
+section .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 250px;
+  height: 3px;
+  background: white;
+  transform: translateX(-50%);
+}
+
+.veille .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background: #1d2c68;
+  transform: translateX(-50%);
+}
+
+
+.veille .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: left;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    font-size: 17px;
+}
+.veille .carousel .card:hover{
+    background: #000;
+}
+.veille .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.veille .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.veille .carousel .card .text{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+    color: #037cc1;
+}
+.veille .carousel .card img{
+    height: 150px;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 5%;
+    border: 5px solid #6e6e6e;
+    transition: all 0.3s ease;
+}
+.veille .carousel .card:hover img{
+    border-color: #fff;
+}
+
+.veille div h2 {
+  color: #1d2c68;
+}
+
 
 /* contact section styling */
 
@@ -695,9 +813,9 @@ section .title::after{
 /*
 /* footer section styling */
 footer{
-    background: #0a143cde;
+    background: #b0b0c7;
     padding: 15px 23px;
-    color: white;
+    color: #000000;
     text-align: center;
     /*! font-style: italic; */
     /*! font-weight: bolder; */

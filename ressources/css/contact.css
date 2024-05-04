@@ -5,6 +5,11 @@ font-weight: 700;
 text-align: center;
 }
 
+.contact div .title:before
+{
+background: white;
+}
+
 .btn
 {
   display: inline-block;
@@ -52,7 +57,7 @@ text-align: center;
     font-size: 1.8rem;
     text-shadow: 1px 1px 0px #1f1f1f;
     transition: transform 0.3s ease-out;
-    color: black;
+    color: white;
   }
   
   .contact-details:hover {
